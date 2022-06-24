@@ -1,7 +1,19 @@
-h1,p {
-    font-family: Arial;
+h1 {
+    font-family: 'Montserrat', sans serif;
+    font-size: 3em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: url('./background.png');
+    -webkit-text-fill-color: transparent;
+    animation: text 7.5s linear infinite;
 }
 
-h1 {
-    color: blue;
+@keyframes text {
+    from { background-position: 0% 50%; }
+    to { background-position: 100% 100%;}
 }
+
+/* p {
+    font-family: 'Montserrat', sans serif;
+    font-size: 1em;
+} */
